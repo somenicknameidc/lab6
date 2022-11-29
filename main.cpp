@@ -146,6 +146,8 @@ int main() {
             prevResult(root, x);
         }
     }
+    
+    std::cout << "hi-hi\n";
 
     return 0;
 }
