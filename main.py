@@ -1,7 +1,9 @@
-def sum(a, b):
-    return (a + b)
 
-a = int(input())
-b = int(input())
-
-print(sum(a, b))
+def calc(expression):
+    try:
+        a, b =  expression.split()
+        return (a + b)
+    except(ValueError, TypeError):
+                raise ValueError('go away idiot')
+if __name__ == '__main__':
+    calc('')
