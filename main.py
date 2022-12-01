@@ -1,6 +1,6 @@
 def calc(expression):
     try:
-        a, b = expression.split()
+        a, b = expression.split('')
         a, b = int(a), int(b)
         
         return (a + b)
