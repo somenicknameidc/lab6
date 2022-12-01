@@ -12,4 +12,4 @@ class calcTest(unittest.TestCase):
         self.assertEqual(calc('100 200'), 300)
     
     def test_fourth(self):
-        self.assertEqual(calc('-1 2'), 2)
+        self.assertEqual(calc('-1 2'), 1)
