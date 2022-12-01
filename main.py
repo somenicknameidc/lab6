@@ -1,8 +1,7 @@
-
 def calc(expression):
     try:
         a, b = expression.split()
-        a, b = (int) a, (int) b
+        a, b = int(a), int(b)
         
         return (a + b)
     except(ValueError, TypeError):
