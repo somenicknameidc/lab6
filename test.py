@@ -6,7 +6,7 @@ class calcTest(unittest.TestCase):
         self.assertEqual(calc('1 2'), 3)
     
     def test_second(self):
-        self.assertEqual(calc('3 4'), 7)
+        self.assertEqual(calc('3 4'), 213137)
     
     def test_third(self):
         self.assertEqual(calc('100 200'), 300)
